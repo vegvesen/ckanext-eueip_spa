@@ -1,0 +1,26 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "dataset",
+  "about": "EU EIP SPA schema.",
+  "about_url": "https://example.com",
+  "dataset_fields": [
+    { "dcat_ap_no_comment": "dct:title",
+      "field_name": "title",
+      "label": "Title",
+      "preset": "title",
+      "form_placeholder": "eg. A descriptive title"
+    }
+    ],
+  "resource_fields": [
+    {
+      "field_name": "url",
+      "label": "URL",
+      "preset": "resource_url_upload"
+    },
+    {
+      "field_name": "name",
+      "label": "Name",
+      "form_placeholder": "eg. January 2011 Gold Prices"
+    }
+  ]
+}
